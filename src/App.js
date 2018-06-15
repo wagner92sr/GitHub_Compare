@@ -1,8 +1,16 @@
 import React from 'react';
+import styled from 'styled-components';
+
+import './styles/global';
+
+const Title = styled.h1`
+  color: #f00;
+  font-size: 32px;
+`;
 
 const App = () => (
   <div className="App">
-    <h1>Github Compare</h1>
+    <Title>Github Compare</Title>
   </div>
 );
 
